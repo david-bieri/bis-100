@@ -1,0 +1,24 @@
+# Corpus: originals and derived text stay local (DECISIONS ADR-001)
+corpus/raw/
+corpus/text/
+*.parquet
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
